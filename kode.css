@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(135deg, #dff3ff, #cfeaff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container,
+.Summary {
+    width: 420px;
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    margin-top: 0;
+    color: #504B38;
+    text-align: center;
+    font-size: 28px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #3368A0;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid #9fc3e5;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #2d7ed8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #215fb0;
+}
+
+.pesan {
+    min-height: 24px;
+    margin: 12px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pesan.error {
+    color: #b42318;
+}
+
+.pesan.berhasil {
+    color: #147d45;
+}
+
+.Summary {
+    margin-top: 20px;
+}
+
+.Summary h2 {
+    margin-top: 0;
+    color: #1a3f66;
+}
+
+#NamaSiswa,
+#NilaiSiswa,
+#Grade {
+    color: #1a3f66;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.siswa-item {
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5eef9;
+}
+
+
